@@ -1,0 +1,26 @@
+#header .icon {
+    color: white;
+    background-color: var(--color-red);
+    padding: 3px 8px;
+  }
+
+  #header .search-bar {
+    border: 2px solid #cccccc !important;
+  }
+  
+  #header .form-control {
+  border: none;
+ }
+
+ #header .search-bar button {
+  border: none;
+ }
+ 
+ #header .form-control:focus {
+    box-shadow: 0 0 0 0;
+
+ }
+
+ #header .search-bar:focus-within , #header  .search-bar:focus-visible, #header .search-bar:focus,.search-bar:active {
+  border: 2px solid black !important;
+}

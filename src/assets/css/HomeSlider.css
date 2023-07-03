@@ -1,0 +1,29 @@
+:root {
+  --swiper-theme-color: white;
+}
+
+#homeSlider {
+  font-size: x-large;
+  color: white;
+}
+
+#homeSlider h1 {
+  font-size: 5rem;
+  text-shadow: 4px 2px #999;
+}
+
+#homeSlider .nav-link {
+  font-size: 14px !important;
+  font-weight: bold;
+  transition: all 200ms;
+  border: 1px solid white;
+}
+
+#homeSlider .nav-link:hover {
+  border: 1px solid transparent;
+  background-color: var(--color-red);
+}
+
+.swiper-button-next, :host(.swiper-rtl) .swiper-button-prev {
+  left: -50px !important;
+}

@@ -1,0 +1,109 @@
+
+
+
+#newCollection .card {
+
+    --bs-card-border-width: unset; 
+    --bs-card-border-color: transparent; 
+    --bs-card-border-radius: 0; 
+    --bs-card-inner-border-radius: 0;
+}
+#newCollection .card-title {
+    color: var(--color-red);
+}
+#newCollection .card .nav-link {
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    opacity: 0;
+    transition: all 500ms;
+}
+
+
+#newCollection .card:hover .nav-link{
+    opacity: 100%;
+}
+
+#newCollection .card img {
+    transition: all 500ms;
+}
+#newCollection .card:hover img {
+    transform: scale(1.1,1.1);
+}
+
+  #info img {
+
+    background-size: cover;
+
+  }
+  
+  #info h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+  
+  #info nav {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  #info .breadcrumb-item.active {
+    color: #ffffff9e !important;
+  }
+
+#info .card {
+    color: var(--color-gray2);
+    border-radius:0;
+    transition: all 500ms;
+}
+
+#info .card img {
+    border-radius:0;
+    transition: all 500ms;
+}
+#info .card:hover img {
+    transform: scale(1.1,1.1);
+}
+
+#info .nav-link button {
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--color-red);
+    border: none;
+}
+
+#newCollection {
+    overflow: hidden;
+}
+#info a {
+    text-decoration: none;
+}
+
+#info .card:hover {
+    color: var(--color-red);
+}
+
+
+
+#clients span {
+    background: #222 none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    position: relative;
+    width: 100px !important;
+}
+
+
+#clients span::after {
+    background: #222 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}

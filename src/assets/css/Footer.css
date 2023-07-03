@@ -1,0 +1,69 @@
+footer h5::after {
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 20%;
+    background: none 0px 0px repeat scroll rgb(241, 241, 241);
+}
+hr {
+    margin: 0.5rem 0;
+}
+#information .nav-link, #customerCare .nav-link {
+    transition: all 500ms;
+}
+#information .nav-link:hover , #customerCare .nav-link:hover {
+    padding-left: 10px !important;
+    color: var(--color-red);
+}
+
+#copyright{
+    background-color: var(--color-black);
+}
+.form-control {
+    border-radius:0;
+}
+.input-group button {
+    background-color: var(--color-red);
+    color: white;
+}
+
+#brandIcon > div {
+    background-color: var(--color-gray2);
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms;
+}
+
+#brandIcon > div > a {
+    color: white;
+}
+
+#brandIcon > div:nth-child(1):hover {
+    background-color: var(--color-fb);
+}
+
+#brandIcon > div:nth-child(2):hover {
+    background-color: var(--color-rss);
+}
+
+#brandIcon > div:nth-child(3):hover {
+    background-color: var(--color-linkedin);
+}
+
+#brandIcon > div:nth-child(4):hover {
+    background-color: var(--color-gplus);
+}
+
+#brandIcon > div:nth-child(5):hover {
+    background-color: var(--color-twiit);
+}
+
+
+ footer, footer .input-group {
+    font-size: 14px;
+ }

@@ -1,0 +1,56 @@
+
+#featured span {
+    background: #222 none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    position: relative;
+    width: 100px !important;
+}
+
+
+#featured span::after {
+    background: #222 none repeat scroll 0 0;
+    bottom: -5px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+#myTab button { 
+    border-radius: 0;
+    background-color: var(--color-gray);
+    border: 1px solid transparent;
+    border-bottom: 1px solid red;
+    color: black;
+}
+
+#myTab button:hover{
+    background-color: var(--color-red);
+    color: white;
+}
+#myTab button.active{
+    background-color: var(--color-red);
+    color: white;
+}
+#myTabContent .card {
+    border-radius:0;
+}
+
+#myTabContent .card img {
+    border-radius:0;
+    transition: all 500ms;
+}
+#myTabContent .card:hover img {
+    transform: scale(1.1,1.1);
+}
+
+#myTabContent .nav-link button {
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--color-red);
+    border: none;
+}

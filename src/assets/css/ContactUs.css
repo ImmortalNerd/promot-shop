@@ -1,0 +1,23 @@
+#contactus h3 {
+    font-weight: lighter !important;
+    position: relative;
+}
+
+#contactus span {
+    background: #222 none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100px !important;
+}
+
+#contactus button{
+    background-color: var(--color-gray2);
+    color: white;
+    border-radius: 0;
+}
+#contactus button:hover {
+
+    color: var(--color-red);
+
+}

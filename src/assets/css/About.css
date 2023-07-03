@@ -1,0 +1,48 @@
+#about img {
+    width: 100%;
+}
+
+#about h3 {
+    font-weight: lighter;
+}
+
+#about .col-6 > span {
+    background: #222 none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100px !important;
+}
+
+#about h3 > span {
+    color: var(--color-red);
+}
+
+#team .card {
+    border-radius: 0;
+}
+
+#team .card img {
+    border-radius: 0;
+}
+
+#team a{
+    color:#25D366;
+}
+
+#team a:hover{
+    color:#075E54;
+}
+#team .card-name {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    color: white;
+    visibility: hidden;
+}
+
+#team .card:hover .card-name {
+    visibility: visible;
+}
